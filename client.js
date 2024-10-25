@@ -42,3 +42,9 @@ client.on('close', () => {
 client.on('error', (err) => {
   console.log('Client error:', err);
 });
+
+process.on('SIGINT', () => {
+  client.end(() => {
+    process.exit(0);
+  });
+});

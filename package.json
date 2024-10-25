@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "node server.js",
-    "client" : "node client.js"
+    "dev": "node server.js",
+    "client": "node client.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,11 @@
   "description": "",
   "type": "module",
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
   }
 }
